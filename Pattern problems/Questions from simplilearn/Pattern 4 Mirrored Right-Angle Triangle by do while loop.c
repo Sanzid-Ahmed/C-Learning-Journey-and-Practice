@@ -13,13 +13,13 @@ int main()
 
         do
         {
-            if (j == n * 2 - i - 2)
+            if (j == n - 1)
                 break;
 
-            printf(" ");
+            printf("  ");
             j++;
         }
-        while(j <= n * 2 - i - 2);
+        while(j < n);
 
         int k = 0;
 
