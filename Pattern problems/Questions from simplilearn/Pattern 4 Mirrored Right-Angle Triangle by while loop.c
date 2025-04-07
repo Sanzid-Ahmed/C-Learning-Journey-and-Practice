@@ -11,9 +11,9 @@ int main()
     {
         int j = i;
 
-        while(j < n * 2 - i - 2)
+        while(j < n - 1)
         {
-            printf(" ");
+            printf("  ");
             j++;
         }
 
